@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="text_to_speech_converter.css">
+    <title>Text to Speech Converter</title>
+</head>
+<body>
+    <div class="hero">
+        <h1>Text to speech <span>converter</span></h1>
+        <textarea class="from-text" placeholder="Write anything here..."></textarea>
+        <div class="row">
+            <button class="listen-btn">Listen</button>
+            <select class="from-lang"></select>
+            <button id="translate">Translate</button>
+            <select class="to-lang"></select>
+            <!-- <button id="translate">Translate</button> -->
+            <button class="translate-listen-btn">Translate and Listen</button>
+            <!-- <button class="listen-btn">Listen</button> -->
+            <select class="voice-select">Select accent</select>
+        </div>
+        <textarea class="to-text" placeholder="Translated text will appear here..."></textarea>
+        <i class="exchange fa fa-exchange"></i>
+    </div>
+    <script src="text_to_speech_converter.js"></script>
+</body>
+</html>
